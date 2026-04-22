@@ -2,10 +2,10 @@
     "name": "pld-app-server",
     "version": "1.0.0",
     "description": "Backend for PLD Management App",
-    "main": "index.js",
+    "main": "server/index.js",
     "scripts": {
-        "start": "node index.js",
-        "dev": "nodemon index.js"
+        "start": "node server/index.js",
+        "dev": "nodemon server/index.js"
     },
     "dependencies": {
         "@google/generative-ai": "^0.24.1",
