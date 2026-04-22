@@ -1,0 +1,57 @@
+[33mcd5077c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m UI Updates
+[33m101ef59[m feat(01-02): enforce mentor ownership on session mutation routes
+[33mfde2030[m test(01-02): add failing test for session mutation ownership policies
+[33ma2f2c2c[m feat(01-02): enforce admin route authz and tokenized admin client calls
+[33m480c236[m feat(01-03): include bearer token on chat save requests\n\n- add local auth-header helper backed by localStorage token\n- merge Authorization header into chat save fetch while preserving payload\n
+[33m5a8ed28[m feat(01-03): protect chat routes with auth and chat access guard\n\n- apply authMiddleware at chat router scope\n- enforce requireChatAccess on history and save endpoints\n
+[33m59dcbec[m test(01-02): add failing test for admin route guardrails
+[33m926f5a5[m feat(01-03): enforce chat session membership and student identity\n\n- add requireChatAccess middleware for /chat history and save access control\n- resolve and validate target student against canonical user discord identity\n
+[33m47c8b41[m docs(01-01): complete access-control-guardrails plan
+[33m295a1d5[m feat(01-01): add shared session authorization middleware contracts
+[33m398af70[m test(01-01): add failing tests for authz middleware contracts
+[33m99fdf4d[m feat(01-01): enforce validated JWT secret usage across auth paths
+[33mef83529[m test(01-01): add failing tests for JWT secret guardrails
+[33m05e5a91[m Additional features
+[33mabae42d[m Fix: Add support for SERVER_PORT for Wispbyte hosting
+[33m0c14972[m new
+[33m407ba8c[m Fix: Update Dockerfile to Node 20
+[33m22e0196[m Add Dockerfile for Back4app deployment
+[33mc73e9b8[m Discord Bot Optimization
+[33mfde5e80[m fix
+[33me47b31c[m fix: add dns ipv4 fallback to prevent discord.js socket hanging on Render's Node 22 environment
+[33m7774d25[m chore: add discord.js debug listeners and token preview log to trace render connection issues
+[33mcd6a6ec[m hotfix: Add explicit Discord bot ready checks on registration API
+[33m4b3c8a1[m hotfix: add Express middleware to normalize double slashes in incoming request routes
+[33m2ca89e1[m hotfix: trim trailing slashes from VITE_API_URL to fix double slash routing errors
+[33me0fb0f1[m Fix various UI and logic bugs: discord verification case sensitivity, mobile profile sticky bug, admin login password env variable
+[33m1dd5db7[m new features
+[33mefb7294[m Bayesian Average in Leaderboard
+[33m938bf00[m Update V 0.0.3
+[33m5bed4f7[m new features
+[33mcc5cd49[m Trigger vercel rebuild
+[33m73a5f24[m Update V0.0.3
+[33mfcd5095[m Migrated to Supabase
+[33m59ba2da[m Migrate to Supabase part 1
+[33mcbaf93f[m new features
+[33mab6075e[m[33m ([m[1;31mupstream/main[m[33m)[m remove
+[33m8097924[m Update
+[33mf3eb4d1[m Added New Features
+[33me1d9867[m Fix bcryptjs version
+[33m51ffff0[m fix
+[33m8e09ab4[m Fix admin routing for deployment
+[33m662bf5d[m Update - V 0.0.2
+[33m61183ba[m Update - V0.0.2
+[33m50b3a53[m replace bcrypt with bcryptjs
+[33m1b70a11[m replace bcrypt with bcryptjs
+[33me716c13[m fix
+[33ma87992d[m Update - V2
+[33mcfbdc48[m Update V2
+[33m8ecf9f2[m fix
+[33mce68f1d[m Update
+[33m6ed9a70[m fix
+[33m88e3ae4[m PLD - Management Application
+[33m47b0a4a[m remove
+[33m5752dde[m Remove secrets and update gitignore
+[33me5f922f[m fix
+[33m4c4a92a[m PLD - Management Application
+[33m9af8a62[m Initial commit
