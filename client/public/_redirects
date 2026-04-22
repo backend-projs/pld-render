@@ -1,0 +1,8 @@
+/* Deployed catch-all for SPAs */
+/* Redirect all routes to index.html so React Router can handle them */
+/* If using Netlify, this file should be in the public directory */
+
+/* For Netlify: */
+/* /* /index.html 200 */
+
+/* If you are using another host like Vercel, you might need a vercel.json file instead. */

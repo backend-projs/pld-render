@@ -1,0 +1,766 @@
+/* Student Dashboard Styles */
+
+/* ===== Welcome Banner ===== */
+.student-welcome-banner {
+    background: linear-gradient(135deg, #D32F2F 0%, #e53935 40%, #ff6659 100%);
+    border-radius: 20px;
+    padding: 2rem 2.5rem;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 20px rgba(211, 47, 47, 0.3);
+}
+
+.student-welcome-banner::before {
+    content: '';
+    position: absolute;
+    top: -40px;
+    right: -40px;
+    width: 160px;
+    height: 160px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.student-welcome-banner::after {
+    content: '';
+    position: absolute;
+    bottom: -50px;
+    right: 20%;
+    width: 120px;
+    height: 120px;
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.student-welcome-banner h1 {
+    margin: 0 0 0.25rem 0;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.student-welcome-subtitle {
+    margin: 0;
+    font-size: 0.95rem;
+    opacity: 0.85;
+    position: relative;
+    z-index: 1;
+}
+
+/* ===== Stats Row ===== */
+.student-stats-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.student-stat-card {
+    background: var(--bg-card);
+    border-radius: 16px;
+    padding: 1.25rem;
+    border: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: var(--shadow-sm);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.student-stat-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.stat-icon-wrap {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.stat-icon-wrap.blue {
+    background: rgba(59, 130, 246, 0.2);
+    color: #60a5fa;
+}
+
+.stat-icon-wrap.green {
+    background: rgba(16, 185, 129, 0.2);
+    color: #34d399;
+}
+
+.stat-icon-wrap.purple {
+    background: rgba(139, 92, 246, 0.2);
+    color: #a78bfa;
+}
+
+.stat-info h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-main);
+    line-height: 1;
+}
+
+.stat-info p {
+    margin: 0.25rem 0 0 0;
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* ===== AI Practice Banner ===== */
+.student-ai-banner {
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #a855f7 100%);
+    border-radius: 20px;
+    padding: 1.5rem 2rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(99, 102, 241, 0.3);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.student-ai-banner:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 30px rgba(99, 102, 241, 0.4);
+}
+
+.student-ai-banner::before {
+    content: '';
+    position: absolute;
+    top: -30px;
+    right: -30px;
+    width: 120px;
+    height: 120px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.ai-banner-content {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.ai-banner-icon {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 0.85rem;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ai-banner-text h2 {
+    margin: 0;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: white;
+}
+
+.ai-banner-text p {
+    margin: 4px 0 0 0;
+    font-size: 0.88rem;
+    opacity: 0.85;
+}
+
+.ai-banner-btn {
+    background: white;
+    color: #6366f1;
+    border: none;
+    padding: 0.7rem 1.4rem;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    position: relative;
+    z-index: 1;
+    white-space: nowrap;
+}
+
+.ai-banner-btn:hover {
+    background: #f0f0ff;
+    transform: translateY(-1px);
+}
+
+/* ===== Content Grid ===== */
+.student-content-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+/* ===== Section Heading ===== */
+.student-section-heading {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--text-main);
+    margin: 0 0 1rem 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.student-section-heading .accent-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--color-primary);
+}
+
+/* ===== Active Session Cards ===== */
+.student-active-sessions {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.student-session-card {
+    background: var(--bg-card);
+    border-radius: 16px;
+    padding: 1.25rem;
+    border: 1px solid var(--border-color);
+    border-left: 4px solid #3b82f6;
+    box-shadow: var(--shadow-sm);
+    transition: transform 0.25s ease;
+}
+
+.student-session-card:hover {
+    transform: translateY(-2px);
+}
+
+.student-session-card h3 {
+    margin: 0 0 0.35rem 0;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #60a5fa;
+}
+
+.student-session-card .session-topic {
+    font-size: 0.82rem;
+    color: var(--text-secondary);
+    margin: 0 0 1rem 0;
+}
+
+.btn-enter-session {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    background: rgba(59, 130, 246, 0.2);
+    color: #60a5fa;
+    border: 1px solid rgba(59, 130, 246, 0.3);
+    padding: 0.6rem 1rem;
+    border-radius: 10px;
+    font-size: 0.88rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+.btn-enter-session:hover {
+    background: rgba(59, 130, 246, 0.35);
+    transform: translateY(-1px);
+}
+
+.student-empty-state {
+    background: var(--bg-card);
+    border-radius: 16px;
+    padding: 2rem;
+    text-align: center;
+    color: var(--text-secondary);
+    font-style: italic;
+    border: 1px solid var(--border-color);
+}
+
+/* ===== Report Cards ===== */
+.student-reports-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1.25rem;
+    align-items: start;
+}
+
+.student-report-card {
+    background: var(--bg-card);
+    border-radius: 16px;
+    padding: 1.25rem;
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-sm);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.25s ease;
+}
+
+.student-report-card:hover {
+    transform: translateY(-2px);
+}
+
+.report-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+.report-card-header h3 {
+    margin: 0 0 0.2rem 0;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #60a5fa;
+}
+
+.report-date {
+    font-size: 0.78rem;
+    color: rgba(255, 255, 255, 0.4);
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+}
+
+.report-status-badge {
+    padding: 0.2rem 0.55rem;
+    border-radius: 6px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.report-status-badge.present {
+    background: rgba(16, 185, 129, 0.2);
+    color: #34d399;
+}
+
+.report-status-badge.absent {
+    background: rgba(239, 68, 68, 0.2);
+    color: #f87171;
+}
+
+.report-tags {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.report-tag {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.78rem;
+    background: var(--bg-app);
+    padding: 0.25rem 0.6rem;
+    border-radius: 6px;
+    border: 1px solid var(--border-color);
+    color: var(--text-secondary);
+}
+
+.report-tag.grade {
+    background: rgba(59, 130, 246, 0.15);
+    color: #60a5fa;
+    border-color: rgba(59, 130, 246, 0.25);
+    font-weight: 600;
+}
+
+/* Questions Review */
+.report-questions {
+    background: rgba(255, 255, 255, 0.04);
+    padding: 0.75rem;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    margin-bottom: 1rem;
+}
+
+.report-questions-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.5rem;
+}
+
+.report-question-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    font-size: 0.82rem;
+    margin-bottom: 0.35rem;
+}
+
+.report-question-item .check {
+    color: #34d399;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+.report-question-item .cross {
+    color: #f87171;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+.report-question-item span:last-child {
+    color: var(--text-secondary);
+}
+
+/* Feedback Button & Area */
+.btn-toggle-feedback {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    background: var(--bg-app);
+    color: var(--text-secondary);
+    border: 1px solid var(--border-color);
+    padding: 0.55rem;
+    border-radius: 10px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    margin-top: auto;
+}
+
+.btn-toggle-feedback:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+.report-feedback {
+    margin-top: 1rem;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    animation: fadeIn 0.2s ease;
+}
+
+.report-feedback strong {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 0.85rem;
+    color: #a78bfa;
+}
+
+.report-feedback-text {
+    font-size: 0.85rem;
+    line-height: 1.6;
+    color: var(--text-secondary);
+    white-space: pre-wrap;
+}
+
+.report-no-feedback {
+    color: var(--text-secondary);
+    font-size: 0.82rem;
+    font-style: italic;
+    text-align: center;
+    padding: 0.5rem;
+    margin-top: auto;
+}
+
+/* ===== Joinable Sessions ===== */
+.student-joinable-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.joinable-session-card {
+    background: var(--bg-card);
+    border-radius: 16px;
+    padding: 1.25rem;
+    border: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    box-shadow: var(--shadow-sm);
+    transition: transform 0.25s ease;
+}
+
+.joinable-session-card:hover {
+    transform: translateY(-2px);
+}
+
+.joinable-info {
+    flex: 1;
+}
+
+.joinable-info h4 {
+    margin: 0 0 0.35rem 0;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-main);
+}
+
+.joinable-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.82rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.75rem;
+}
+
+.joinable-topics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+}
+
+.tiny-topic {
+    background: var(--bg-app);
+    border: 1px solid var(--border-color);
+    color: var(--text-secondary);
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.7rem;
+}
+
+.btn-join-session {
+    background: #3b82f6;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.25rem;
+    border-radius: 10px;
+    font-size: 0.88rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    white-space: nowrap;
+}
+
+.btn-join-session:hover {
+    background: #2563eb;
+    transform: scale(1.05);
+}
+
+.accent-dot.blue-dot {
+    background: #3b82f6;
+    box-shadow: 0 0 10px rgba(59, 130, 246, 0.5);
+}
+
+/* ===== Preferences Card Redesign ===== */
+.student-prefs-card {
+    background: var(--bg-card);
+    border-radius: 16px;
+    padding: 1.5rem 2rem;
+    margin-bottom: 2rem;
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-sm);
+}
+
+.prefs-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.prefs-icon {
+    width: 48px;
+    height: 48px;
+    background: rgba(239, 68, 68, 0.15);
+    color: #ef4444;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.prefs-header h3 {
+    margin: 0 0 0.25rem 0;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--text-main);
+}
+
+.prefs-header p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.prefs-controls {
+    display: flex;
+    gap: 1.25rem;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.prefs-select-wrapper {
+    flex: 1;
+    min-width: 280px;
+}
+
+.prefs-select-wrapper label {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.student-prefs-select {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    background: var(--bg-input);
+    border: 1.5px solid var(--border-color);
+    border-radius: 10px;
+    color: var(--text-main);
+    font-size: 0.95rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    outline: none;
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23a0aabf%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E");
+    background-repeat: no-repeat, repeat;
+    background-position: right .7em top 50%, 0 0;
+    background-size: .65em auto, 100%;
+}
+
+.student-prefs-select:hover,
+.student-prefs-select:focus {
+    border-color: #ef4444;
+    background-color: var(--bg-card);
+}
+
+.student-prefs-select option {
+    background: var(--bg-card);
+    color: var(--text-main);
+}
+
+.student-prefs-select option:disabled {
+    color: var(--text-secondary);
+    opacity: 0.5;
+    font-style: italic;
+}
+
+.student-prefs-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.8rem 1.75rem;
+    background: linear-gradient(135deg, var(--color-primary), #e53935);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    box-shadow: 0 4px 15px rgba(211, 47, 47, 0.3);
+    height: 46px;
+    /* Match select box height */
+}
+
+.student-prefs-btn:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(211, 47, 47, 0.4);
+}
+
+.student-prefs-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    background: rgba(255, 255, 255, 0.05);
+    color: rgba(255, 255, 255, 0.3);
+    box-shadow: none;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.prefs-active-badge {
+    margin-top: 1.5rem;
+    padding: 0.75rem 1rem;
+    background: rgba(16, 185, 129, 0.1);
+    color: #34d399;
+    border-radius: 8px;
+    border: 1px solid rgba(16, 185, 129, 0.2);
+    font-size: 0.9rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.prefs-active-badge strong {
+    font-weight: 600;
+    color: #6ee7b7;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 900px) {
+    .student-content-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .student-reports-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 640px) {
+    .student-welcome-banner {
+        padding: 1.25rem 1.25rem;
+    }
+
+    .student-welcome-banner h1 {
+        font-size: 1.25rem;
+    }
+
+    .student-ai-banner {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+        padding: 1.25rem;
+    }
+
+    .ai-banner-content {
+        flex-direction: row;
+    }
+
+    .ai-banner-btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .joinable-session-card {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .btn-join-session {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .student-stats-row {
+        grid-template-columns: 1fr;
+    }
+}

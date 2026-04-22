@@ -1,0 +1,292 @@
+.leaderboard-container {
+    width: 100%;
+}
+
+.leaderboard-header-card {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    background: linear-gradient(135deg, var(--color-primary), #6366f1);
+    border-radius: 16px;
+    box-shadow: var(--shadow-lg);
+}
+
+.leaderboard-header-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.leaderboard-header-title h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.leaderboard-header-card p {
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0;
+}
+
+.major-selector {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.major-select {
+    padding: 0.45rem 1.2rem;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.15);
+    color: white;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+    backdrop-filter: blur(4px);
+    transition: all 0.2s ease;
+    appearance: auto;
+}
+
+.major-select:hover {
+    background: rgba(255, 255, 255, 0.25);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.major-select:focus {
+    border-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.15);
+}
+
+.major-select option {
+    background: var(--bg-card);
+    color: var(--text-main);
+}
+
+.major-badge-display {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin-top: 0.75rem;
+    padding: 0.35rem 1rem;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.leaderboard-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.stat-card {
+    text-align: center;
+}
+
+.stat-card.border-gold {
+    border-top: 4px solid #FFD700;
+}
+
+.stat-card.border-green {
+    border-top: 4px solid #4CAF50;
+}
+
+.stat-card.border-blue {
+    border-top: 4px solid #2196F3;
+}
+
+.stat-icon {
+    margin-bottom: 0.5rem;
+}
+
+.stat-value {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.stat-value.color-primary {
+    color: var(--color-primary);
+}
+
+.stat-value.color-green {
+    color: #4CAF50;
+}
+
+.stat-value.color-blue {
+    color: #2196F3;
+}
+
+.stat-label {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+.empty-state {
+    text-align: center;
+    padding: 4rem;
+    color: var(--text-secondary);
+}
+
+.empty-icon {
+    opacity: 0.3;
+    margin-bottom: 1rem;
+}
+
+.table-card {
+    padding: 0;
+    overflow: hidden;
+}
+
+.table-header,
+.leaderboard-row {
+    display: grid;
+    grid-template-columns: 80px 1fr 150px 150px;
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid var(--border-color);
+    align-items: center;
+}
+
+.table-header {
+    background: var(--bg-app);
+    border-bottom: 2px solid var(--border-color);
+    font-weight: 600;
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.leaderboard-row {
+    transition: background 0.2s ease;
+}
+
+.leaderboard-row:hover {
+    background: var(--bg-app) !important;
+}
+
+.col-rank {
+    display: flex;
+    align-items: center;
+}
+
+.col-student {
+    flex: 1;
+    overflow: hidden;
+}
+
+.col-plds {
+    text-align: center;
+}
+
+.col-grade {
+    text-align: center;
+}
+
+.rank-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+.student-name {
+    font-weight: 600;
+    font-size: 1.05rem;
+    color: var(--text-main);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.student-discord {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.plds-badge {
+    background: var(--bg-app);
+    padding: 0.3rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border: 1px solid var(--border-color);
+    white-space: nowrap;
+}
+
+.grade-badge {
+    padding: 0.4rem 1rem;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+/* ========================================
+   Responsive Design
+   ======================================== */
+@media (max-width: 768px) {
+    .table-header {
+        display: none;
+        /* Hide standard headers on mobile */
+    }
+
+    .leaderboard-row {
+        grid-template-columns: 50px 1fr;
+        grid-template-areas:
+            "rank name"
+            "rank details";
+        gap: 0.5rem;
+        padding: 1rem;
+    }
+
+    .col-rank {
+        grid-area: rank;
+        align-self: flex-start;
+        margin-top: 0.25rem;
+    }
+
+    .col-student {
+        grid-area: name;
+        margin-bottom: 0.5rem;
+    }
+
+    .col-plds {
+        grid-area: details;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1rem;
+        text-align: left;
+    }
+
+    .col-grade {
+        display: none;
+        /* Hide standard placement to merge it with plds */
+    }
+
+    /* Adjust sizing for mobile */
+    .leaderboard-header-title h1 {
+        font-size: 1.75rem;
+    }
+
+    .trophy-icon {
+        width: 28px;
+        height: 28px;
+    }
+}

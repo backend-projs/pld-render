@@ -1,0 +1,276 @@
+/* client/src/pages/Announcements.css */
+
+.announcements-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+}
+
+.announcements-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 2rem;
+}
+
+.announcements-header h1 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--text-main);
+    margin: 0;
+}
+
+.ann-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.ann-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 14px;
+    padding: 1.25rem 1.5rem;
+    position: relative;
+    transition: border-color 0.2s;
+}
+
+.ann-card:hover {
+    border-color: var(--accent-primary, #ef4444);
+}
+
+.ann-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 0.6rem;
+}
+
+.ann-title {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--text-main);
+    margin: 0;
+}
+
+.ann-badge {
+    font-size: 0.72rem;
+    font-weight: 600;
+    padding: 3px 10px;
+    border-radius: 20px;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.ann-badge.all {
+    background: rgba(239, 68, 68, 0.15);
+    color: #ef4444;
+    border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+.ann-badge.selected {
+    background: rgba(59, 130, 246, 0.15);
+    color: #60a5fa;
+    border: 1px solid rgba(59, 130, 246, 0.3);
+}
+
+.ann-message {
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin: 0 0 1rem 0;
+    white-space: pre-wrap;
+}
+
+.ann-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    opacity: 0.7;
+}
+
+.ann-footer .ann-mentor {
+    font-weight: 600;
+    color: var(--text-secondary);
+}
+
+.ann-delete-btn {
+    background: none;
+    border: none;
+    color: var(--text-secondary);
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    opacity: 0.5;
+    transition: opacity 0.2s, color 0.2s;
+}
+
+.ann-delete-btn:hover {
+    opacity: 1;
+    color: #ef4444;
+}
+
+.ann-empty {
+    text-align: center;
+    color: var(--text-secondary);
+    padding: 3rem;
+    opacity: 0.6;
+    font-size: 0.95rem;
+}
+
+/* Mentor composer */
+.ann-composer {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.ann-composer h3 {
+    margin: 0 0 1.2rem 0;
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--text-main);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.ann-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.ann-target-row {
+    display: flex;
+    gap: 10px;
+}
+
+.ann-target-btn {
+    flex: 1;
+    padding: 8px 16px;
+    border-radius: 10px;
+    border: 1px solid var(--border-color);
+    background: var(--bg-app);
+    color: var(--text-secondary);
+    cursor: pointer;
+    font-size: 0.88rem;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+.ann-target-btn.active {
+    background: #ef4444;
+    color: white;
+    border-color: #ef4444;
+}
+
+.student-picker {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 8px;
+    max-height: 200px;
+    overflow-y: auto;
+    padding: 4px;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    background: var(--bg-app);
+}
+
+.student-chip {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.82rem;
+    transition: background 0.15s;
+    color: var(--text-secondary);
+}
+
+.student-chip:hover {
+    background: var(--sidebar-hover-bg);
+}
+
+.student-chip.selected {
+    background: rgba(239, 68, 68, 0.12);
+    color: var(--text-main);
+}
+
+.student-chip input[type="checkbox"] {
+    accent-color: #ef4444;
+    width: 14px;
+    height: 14px;
+    flex-shrink: 0;
+}
+
+.ann-send-btn {
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 24px;
+    background: #ef4444;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 0.92rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.ann-send-btn:hover:not(:disabled) {
+    background: #dc2626;
+}
+
+.ann-send-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+@media (max-width: 640px) {
+    .announcements-container {
+        padding: 1.25rem 1rem;
+    }
+
+    .ann-composer {
+        padding: 1rem;
+    }
+
+    .ann-target-row {
+        flex-direction: column;
+    }
+
+    .ann-send-btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .student-picker {
+        grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    }
+
+    .ann-card {
+        padding: 1rem;
+    }
+
+    .ann-card-header {
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .ann-footer {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 6px;
+    }
+}

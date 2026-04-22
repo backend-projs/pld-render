@@ -1,0 +1,1069 @@
+{
+  "users": [
+    {
+      "id": "a62ec445-cbee-407f-98c3-6c3a9c4a893b",
+      "username": "Jalal",
+      "password": "$2b$10$SlL1crO.PngnEebxZFECiO7ylHCFcwFesYI0Q5fAThD1PVs4AunVm",
+      "discordId": "jalalahmadli",
+      "role": "mentor",
+      "createdAt": "2026-02-05T07:54:27.955Z"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "f947ff1e-340a-4650-8a6c-f79bcbf79267",
+      "mentorId": "test-mentor-id",
+      "groupName": "Test Session Group",
+      "topicIds": [
+        "topic-1"
+      ],
+      "topicNames": [],
+      "topicName": "",
+      "questions": [],
+      "status": "active",
+      "createdAt": "2026-02-05T07:09:42.233Z",
+      "students": [
+        {
+          "id": "6c92ea83-3674-40fa-8590-13e3af81e2b5",
+          "name": "Test Student",
+          "discord": "student_user",
+          "notes": "",
+          "status": "present",
+          "result": null
+        }
+      ]
+    },
+    {
+      "id": "3a957308-eb36-48c6-ae55-2e459ac4284b",
+      "mentorId": "a62ec445-cbee-407f-98c3-6c3a9c4a893b",
+      "groupName": "pld2",
+      "topicIds": [
+        "fee5b5d7-1051-47ba-bd85-aba4dd2bf83a"
+      ],
+      "topicNames": [
+        "LOOPS"
+      ],
+      "topicName": "LOOPS",
+      "questions": [
+        {
+          "id": "fb15d70e-b036-471c-804f-6bf371fc206c",
+          "text": "WHAT IS A LOOP",
+          "topicName": "LOOPS"
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2026-02-05T08:38:49.869Z",
+      "students": [
+        {
+          "id": "70787c17-e6e5-4d35-a434-341c960a2325",
+          "name": "Jalal Ahmadli",
+          "discord": "jalalahmadli",
+          "notes": "",
+          "status": "present",
+          "result": "Style 2 - Friendly:\n\"Hey Jalal! Look at what you have learned this week:\n- Learned a lot about loops.\n\nKeep practicing and explore more about loops to get even better!\""
+        },
+        {
+          "id": "59bb486b-791d-4cd6-b782-de4d58e1e308",
+          "name": "Elcan Aliyev",
+          "discord": "elcanoo",
+          "notes": "",
+          "status": "present",
+          "result": "\"Hi Elcan Aliyev! You did well with loops in this week's session. Keep practicing to get even better!\""
+        },
+        {
+          "id": "cb3b5436-d74d-4024-aa0b-5e3dfe13fd67",
+          "name": "Tamerlan Kerimov",
+          "discord": "kerim0v",
+          "notes": "",
+          "status": "present",
+          "result": "\"Hello Tamerlan! Here's your PLD report.\nYou know: loops well.\nKeep up the good work and keep practicing!\""
+        },
+        {
+          "id": "3921ae0f-d204-4722-a28a-25b7b7f6c7ab",
+          "name": "Ziya Safaraliyev",
+          "discord": "ziyasenior",
+          "notes": "",
+          "status": "present",
+          "result": "\"Greetings Ziya! This week's PLD report shows your progress. You have attended the session. Keep up the good momentum!\""
+        },
+        {
+          "id": "0cbb7923-239d-41d8-8cde-8bc8e2961bf1",
+          "name": "Lucas Martin",
+          "discord": "lucas.fr",
+          "notes": "",
+          "status": "present",
+          "result": "\"Hello Lucas! Here is what you did in the session:\n✓ Knows: loops\nKeep up the good work!\""
+        },
+        {
+          "id": "19062b94-0fc1-4370-80cd-46e0d80a8556",
+          "name": "Camille Dupont",
+          "discord": "camille.dev",
+          "notes": "",
+          "status": "present",
+          "result": "\"Hello Camille, this is your PLD report for this week. You know a lot about loops! Keep practicing with more examples.\""
+        },
+        {
+          "id": "5f52dd65-358e-40b0-b797-6482673512f0",
+          "name": "Julien Moreau",
+          "discord": "julien_code",
+          "notes": "",
+          "status": "present",
+          "result": "Hi Julien! Here is your PLD report for the week: You know a lot about loops now! Keep practicing to get even better."
+        },
+        {
+          "id": "0b35cebc-cbf2-4e75-a1e3-3933ad819680",
+          "name": "Sophie Laurent",
+          "discord": "sophie.ui",
+          "notes": "",
+          "status": "present",
+          "result": "Hi Sophie! Here's your PLD report for this week:\n\n✓ You know: loops, and participation.\n\n→ Please keep looking at: nothing for now. Keep up the great work!"
+        },
+        {
+          "id": "55c2be53-f3bb-4723-8485-96ccb15aa420",
+          "name": "Ahmed Al-Farsi",
+          "discord": "ahmed.sa",
+          "notes": "",
+          "status": "present",
+          "result": "\"Hello Ahmed Al-Farsi, this is your PLD report for this week.\nYou know: loops and their concepts well.\nGreat job! Keep practicing what you've learned.\""
+        },
+        {
+          "id": "01a102a0-3bb9-421b-a98c-5e63f691a9e3",
+          "name": "Omar Al-Nasser",
+          "discord": "omar.backend",
+          "notes": "",
+          "status": "present",
+          "result": "\"Hello Omar, here is your PLD report for this week on LOOPS. You participated well in the session. Keep it up!\""
+        },
+        {
+          "id": "9ae36a99-8666-42f6-b388-dfb26eac8a68",
+          "name": "Yasmin Al-Harbi",
+          "discord": "yasmin.dev",
+          "notes": "",
+          "status": "present",
+          "result": "\"Hi Yasmin! Great session on loops. You joined and learned a lot. Keep practicing what you learned. See you soon!\""
+        },
+        {
+          "id": "0f3ed087-510d-4f07-b393-3996b27a75a4",
+          "name": "Khalid Al-Mutairi",
+          "discord": "khalid.api",
+          "notes": "",
+          "status": "present",
+          "result": "\"Hello Khalid! This is what you know this week in LOOPS: for loops, while loops. Keep practicing and you'll get even better!\""
+        },
+        {
+          "id": "265b6074-81cc-4cc7-896b-0cc241c8db94",
+          "name": "Jack Wilson",
+          "discord": "jack.aus",
+          "notes": "",
+          "status": "present",
+          "result": "Hello Jack Wilson, this is your PLD report for this week.  \nYou know: basics of loops and how to use them.  \nLet's look again at complex loop patterns.  "
+        },
+        {
+          "id": "f9d987b0-143f-4e19-a6a5-d31f1c4d4b0b",
+          "name": "Emily Carter",
+          "discord": "emily.react",
+          "notes": "",
+          "status": "present",
+          "result": "Style 2 - Friendly:  \n\"Hi Emily! Here is what you learned this week: loops and how to use them. Great job participating in the session!\""
+        },
+        {
+          "id": "5e25ae95-e36a-4e04-9e83-8531cc0312e5",
+          "name": "Noah Thompson",
+          "discord": "noah.node",
+          "notes": "",
+          "status": "present",
+          "result": "\"Hi Noah! You joined the session today. Keep practicing the loops from what you learned. You're doing great!\""
+        },
+        {
+          "id": "6d281e55-aabf-4bca-8213-3169a76b55eb",
+          "name": "Oliver Brown",
+          "discord": "oliver.cloud",
+          "notes": "",
+          "status": "present",
+          "result": "Hi Oliver! Here's what you learned this week on loops:\nYou did great with understanding the session.\nLet's keep it up and keep learning more!"
+        },
+        {
+          "id": "142f61b6-fdcf-4847-888a-058367aaa408",
+          "name": "Michael Johnson",
+          "discord": "mike.fullstack",
+          "notes": "",
+          "status": "present",
+          "result": "Hi Michael! Here is what you learned this week: You joined the session about loops. Keep it up!"
+        },
+        {
+          "id": "f93496d8-f257-486b-94c0-abd5ee11f4a5",
+          "name": "Sarah Miller",
+          "discord": "sarah.codes",
+          "notes": "",
+          "status": "present",
+          "result": "\"Hello Sarah Miller, here is your PLD report for this week.\nYou know: loops\nKeep practicing and exploring more about it!\""
+        },
+        {
+          "id": "20275790-95cd-4a01-824e-e3672f0efcd7",
+          "name": "Daniel Anderson",
+          "discord": "dan_backend",
+          "notes": "",
+          "status": "present",
+          "result": "\"Hello Daniel, this is your PLD report for this week. You did great with loops! Let's keep practicing them even more!\""
+        },
+        {
+          "id": "b6585645-8b77-458f-aebe-904d856b88cc",
+          "name": "Jessica White",
+          "discord": "jess.uiux",
+          "notes": "",
+          "status": "present",
+          "result": "\"Hey Jessica! Here's your PLD update this week: You joined the session on LOOPS. Keep it up!\""
+        },
+        {
+          "id": "a58f6fbc-8961-4554-a5be-80764fa7d98c",
+          "name": "Elvin Məmmədov",
+          "discord": "elvin.dev",
+          "notes": "",
+          "status": "present",
+          "result": "\"Hello Elvin! This is your PLD update for the week. You took part in the session. Keep joining and learning more!\""
+        },
+        {
+          "id": "ece13e48-b425-4fb8-ab04-c8261ec0ccec",
+          "name": "Aysel Hüseynova",
+          "discord": "aysel.frontend",
+          "notes": "",
+          "status": "present",
+          "result": "\"Hi Aysel! You learned a lot about loops this week! Keep practicing and you'll do even better!\""
+        },
+        {
+          "id": "5282b3d4-a905-46fd-b865-35b7373cf5ef",
+          "name": "Kamal Əliyev",
+          "discord": "kamal.api",
+          "notes": "",
+          "status": "present",
+          "result": "\"Hey Kamal! 😊 Here's your report for this week. You learned about loops well. Keep going strong!\""
+        },
+        {
+          "id": "edec5d25-dae4-4eab-bebd-af8294fc57da",
+          "name": "Nigar Qasımova",
+          "discord": "nigar.sql",
+          "notes": "good loop.",
+          "status": "present",
+          "result": "\"Hi Nigar Qasımova! Here's your learning update for the week:  \nYou know loops well.  \nKeep it up!\""
+        }
+      ]
+    },
+    {
+      "id": "fcabbe51-fe2d-4bc6-8c72-b12590f3d232",
+      "mentorId": "a62ec445-cbee-407f-98c3-6c3a9c4a893b",
+      "groupName": "pld2",
+      "topicIds": [
+        "fee5b5d7-1051-47ba-bd85-aba4dd2bf83a"
+      ],
+      "topicNames": [
+        "LOOPS"
+      ],
+      "topicName": "LOOPS",
+      "questions": [
+        {
+          "id": "fb15d70e-b036-471c-804f-6bf371fc206c",
+          "text": "WHAT IS A LOOP",
+          "topicName": "LOOPS"
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2026-02-05T08:57:21.613Z",
+      "students": [
+        {
+          "id": "c427e38d-573b-4e0c-8895-8f4b2250a34a",
+          "name": "Aysel Mammedova",
+          "discord": "aysel.mammedova",
+          "notes": "loops good.sdsddf",
+          "status": "present",
+          "result": "\"Nice job Aysel! You've got a good understanding of loops. Keep up the great work!\"",
+          "grade": 5
+        },
+        {
+          "id": "e663cc22-15c8-4e67-9aca-fa9dbd198134",
+          "name": "Jalal Ahmadli",
+          "discord": "jalalahmadli",
+          "notes": "loops very bad",
+          "status": "present",
+          "result": "Hi Jalal! Let's see your progress on loops this week. You need to understand loops better. Let's focus on them more. You can do it!",
+          "grade": 5
+        }
+      ]
+    },
+    {
+      "id": "5d5818a8-c7b5-4a32-ab31-8ae3aeed1a52",
+      "mentorId": "a62ec445-cbee-407f-98c3-6c3a9c4a893b",
+      "groupName": "pld1",
+      "topicIds": [
+        "fee5b5d7-1051-47ba-bd85-aba4dd2bf83a"
+      ],
+      "topicNames": [
+        "LOOPS"
+      ],
+      "topicName": "LOOPS",
+      "questions": [
+        {
+          "id": "fb15d70e-b036-471c-804f-6bf371fc206c",
+          "text": "WHAT IS A LOOP",
+          "topicName": "LOOPS"
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2026-02-05T10:05:48.542Z",
+      "students": [
+        {
+          "id": "7c2b43e9-a750-4b9c-a9f2-0bd4a0b29106",
+          "name": "corbin",
+          "discord": "clodrax_54593",
+          "major": "CS",
+          "notes": "loops bad",
+          "grade": 5,
+          "status": "present",
+          "result": "Style 2 - Friendly:  \n\"Hi Corbin! Here is what you learned this week:   \nNo strengths yet, but that's okay!  \nPlease review: loops\""
+        }
+      ]
+    },
+    {
+      "id": "80e342da-15d8-4e31-8815-b4bc6e4cd952",
+      "mentorId": "a62ec445-cbee-407f-98c3-6c3a9c4a893b",
+      "groupName": "pld3",
+      "topicIds": [
+        "fee5b5d7-1051-47ba-bd85-aba4dd2bf83a"
+      ],
+      "topicNames": [
+        "LOOPS"
+      ],
+      "topicName": "LOOPS",
+      "questions": [
+        {
+          "id": "fb15d70e-b036-471c-804f-6bf371fc206c",
+          "text": "WHAT IS A LOOP",
+          "topicName": "LOOPS"
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2026-02-05T10:39:31.133Z",
+      "students": [
+        {
+          "id": "01ab0aee-8262-47fc-b60e-f26b3281055f",
+          "name": "Aysel Mammedova",
+          "discord": "aysel.mammedova",
+          "major": "Computer Science",
+          "notes": "loops good",
+          "grade": 5,
+          "status": "present",
+          "result": "Hi Aysel! This is your weekly learning summary: You have a good grip on loops. Let's continue practicing to get even better!",
+          "answeredQuestions": []
+        }
+      ]
+    },
+    {
+      "id": "dab0c15d-effa-41da-9dbb-78ef36205399",
+      "mentorId": "a62ec445-cbee-407f-98c3-6c3a9c4a893b",
+      "groupName": "pld4",
+      "topicIds": [
+        "a340168d-a51f-47d6-b0cc-25719dcfd564"
+      ],
+      "topicNames": [
+        "LOOPS"
+      ],
+      "topicName": "LOOPS",
+      "questions": [
+        {
+          "id": "3dda5e9a-a7da-46cc-baec-aa3321a4205b",
+          "text": "WHAT IS A LOOP",
+          "topicName": "LOOPS"
+        },
+        {
+          "id": "f0564b83-afb7-4ce8-9a48-6f190c5f56ec",
+          "text": "WHAT IS A LOOP 2",
+          "topicName": "LOOPS"
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2026-02-05T10:41:55.227Z",
+      "students": [
+        {
+          "id": "29af5768-f26e-4077-a310-062e26c440fa",
+          "name": "Aysel Mammedova",
+          "discord": "aysel.mammedova",
+          "major": "Computer Science",
+          "notes": "good",
+          "grade": 5,
+          "status": "present",
+          "result": "Hello Aysel Mammedova, this is your PLD report for this week.  \nYou know: what a loop is and what a loop 2 is.  \nKeep up the good work!",
+          "answeredQuestions": [
+            "3dda5e9a-a7da-46cc-baec-aa3321a4205b",
+            "f0564b83-afb7-4ce8-9a48-6f190c5f56ec"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ee597235-257a-4f7c-92f2-69d2fa1f5690",
+      "mentorId": "a62ec445-cbee-407f-98c3-6c3a9c4a893b",
+      "groupName": "pld 5",
+      "topicIds": [
+        "fee5b5d7-1051-47ba-bd85-aba4dd2bf83a",
+        "a340168d-a51f-47d6-b0cc-25719dcfd564"
+      ],
+      "topicNames": [
+        "LOOPS",
+        "LOOPS"
+      ],
+      "topicName": "LOOPS, LOOPS",
+      "questions": [
+        {
+          "id": "fb15d70e-b036-471c-804f-6bf371fc206c",
+          "text": "WHAT IS A LOOP",
+          "topicName": "LOOPS"
+        },
+        {
+          "id": "3dda5e9a-a7da-46cc-baec-aa3321a4205b",
+          "text": "WHAT IS A LOOP",
+          "topicName": "LOOPS"
+        },
+        {
+          "id": "f0564b83-afb7-4ce8-9a48-6f190c5f56ec",
+          "text": "WHAT IS A LOOP 2",
+          "topicName": "LOOPS"
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2026-02-05T10:50:28.284Z",
+      "students": [
+        {
+          "id": "4db2ace2-8a19-4655-82ae-951b9781e11e",
+          "name": "Aysel Mammedova",
+          "discord": "aysel.mammedova",
+          "major": "Computer Science",
+          "notes": "",
+          "grade": 0,
+          "status": "present",
+          "result": null,
+          "answeredQuestions": [
+            "fb15d70e-b036-471c-804f-6bf371fc206c"
+          ]
+        },
+        {
+          "id": "0c35bdb6-5142-40e6-a927-3e58641b0dcf",
+          "name": "Jalal Ahmadli",
+          "discord": "jalalahmadli",
+          "major": "",
+          "notes": "",
+          "grade": 0,
+          "status": "present",
+          "result": null,
+          "answeredQuestions": [
+            "3dda5e9a-a7da-46cc-baec-aa3321a4205b"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "889fd949-9e3b-4c86-a3e8-a4ab2564a987",
+      "mentorId": "a62ec445-cbee-407f-98c3-6c3a9c4a893b",
+      "groupName": "1",
+      "topicIds": [
+        "fee5b5d7-1051-47ba-bd85-aba4dd2bf83a"
+      ],
+      "topicNames": [
+        "LOOPS"
+      ],
+      "topicName": "LOOPS",
+      "questions": [
+        {
+          "id": "fb15d70e-b036-471c-804f-6bf371fc206c",
+          "text": "WHAT IS A LOOP",
+          "topicName": "LOOPS"
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2026-02-05T10:55:42.943Z",
+      "students": [
+        {
+          "id": "191b54a8-d13b-4ad3-8b0c-c66ea57ce311",
+          "name": "Elcan Aliyev",
+          "discord": "elcanoo",
+          "major": "CS",
+          "notes": "",
+          "grade": 0,
+          "status": "present",
+          "result": null,
+          "answeredQuestions": [],
+          "incorrectQuestions": []
+        }
+      ]
+    },
+    {
+      "id": "a2dd27ec-2ca6-417c-aa65-b7ca484069a7",
+      "mentorId": "a62ec445-cbee-407f-98c3-6c3a9c4a893b",
+      "groupName": "pld3",
+      "topicIds": [
+        "a340168d-a51f-47d6-b0cc-25719dcfd564"
+      ],
+      "topicNames": [
+        "LOOPS"
+      ],
+      "topicName": "LOOPS",
+      "questions": [
+        {
+          "id": "3dda5e9a-a7da-46cc-baec-aa3321a4205b",
+          "text": "WHAT IS A LOOP",
+          "topicName": "LOOPS"
+        },
+        {
+          "id": "f0564b83-afb7-4ce8-9a48-6f190c5f56ec",
+          "text": "WHAT IS A LOOP 2",
+          "topicName": "LOOPS"
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2026-02-05T11:20:26.803Z",
+      "students": [
+        {
+          "id": "3105c0ff-a218-4dc1-88f5-429aa226a6e8",
+          "name": "Elcan Aliyev",
+          "discord": "elcanoo",
+          "major": "CS",
+          "notes": "",
+          "grade": 0,
+          "status": "present",
+          "result": null,
+          "answeredQuestions": [],
+          "incorrectQuestions": []
+        }
+      ]
+    },
+    {
+      "id": "799de6fd-845c-44a5-8ed0-6e4cbcaa60de",
+      "mentorId": "a62ec445-cbee-407f-98c3-6c3a9c4a893b",
+      "groupName": "pld8",
+      "topicIds": [
+        "56dc6198-8426-41e9-b213-1bb797bd6b06"
+      ],
+      "topicNames": [
+        "Loops"
+      ],
+      "topicName": "Loops",
+      "questions": [
+        {
+          "id": "4202079f-0d47-4829-a192-ecc1c937bffb",
+          "text": "What is while loop?",
+          "topicName": "Loops"
+        },
+        {
+          "id": "3d9d366f-a1e4-49e0-8688-0179ca287487",
+          "text": "What is for loop?",
+          "topicName": "Loops"
+        },
+        {
+          "id": "5c110393-ad6d-4928-91f7-3dc5b8957c62",
+          "text": "What is difference between while and for loop?",
+          "topicName": "Loops"
+        },
+        {
+          "id": "be09d4b1-f2a7-4c42-ba4e-fb29fa935767",
+          "text": "What is nested loops?",
+          "topicName": "Loops"
+        },
+        {
+          "id": "f1a52e3c-9ab7-43e5-ac9e-c96256a1334e",
+          "text": "What is variable scopes?",
+          "topicName": "Loops"
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2026-02-05T11:26:03.800Z",
+      "students": [
+        {
+          "id": "a8a45d97-9cab-4e97-8819-3ab92c321fab",
+          "name": "Elcan Aliyev",
+          "discord": "elcanoo",
+          "major": "CS",
+          "notes": "loops bad",
+          "grade": 1,
+          "status": "present",
+          "result": "\"Hello Elcan, here is your PLD update for the week. You need practice with loops. Keep trying, you're doing great!\"",
+          "answeredQuestions": [],
+          "incorrectQuestions": [
+            "4202079f-0d47-4829-a192-ecc1c937bffb"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [],
+  "students": [
+    {
+      "id": "91b8534b-acc6-441c-9158-57dfd109f991",
+      "mentorId": "fc761c56-03a2-4e31-a6d0-663164264328",
+      "name": "Jalal Ahmadli",
+      "discord": "jalalahmadli",
+      "createdAt": "2026-02-04T15:05:51.429Z"
+    },
+    {
+      "id": "468bdfae-b86f-4ba1-b509-a20febf0ae6e",
+      "mentorId": "fc761c56-03a2-4e31-a6d0-663164264328",
+      "name": "Elcan Aliyev",
+      "discord": "elcanoo",
+      "createdAt": "2026-02-04T15:05:51.429Z"
+    },
+    {
+      "id": "3c8e9299-a4e6-4950-a541-668cbd7784c4",
+      "mentorId": "fc761c56-03a2-4e31-a6d0-663164264328",
+      "name": "Tamerlan Kerimov",
+      "discord": "kerim0v",
+      "createdAt": "2026-02-04T15:05:51.429Z"
+    },
+    {
+      "id": "c7a9c341-cf91-4ee9-8de4-3143dee2aa1e",
+      "mentorId": "fc761c56-03a2-4e31-a6d0-663164264328",
+      "name": "Ziya Safaraliyev",
+      "discord": "ziyasenior",
+      "createdAt": "2026-02-04T15:05:51.429Z"
+    },
+    {
+      "id": "1caa946b-2a2f-4e6b-8b52-abed24d86f55",
+      "mentorId": "fc761c56-03a2-4e31-a6d0-663164264328",
+      "name": "Lucas Martin",
+      "discord": "lucas.fr",
+      "createdAt": "2026-02-04T15:05:51.429Z"
+    },
+    {
+      "id": "271ea3b8-7e20-49e6-9e92-a439262527c2",
+      "mentorId": "fc761c56-03a2-4e31-a6d0-663164264328",
+      "name": "Camille Dupont",
+      "discord": "camille.dev",
+      "createdAt": "2026-02-04T15:05:51.429Z"
+    },
+    {
+      "id": "8e160baa-af80-4c33-abc1-5278faded5fc",
+      "mentorId": "fc761c56-03a2-4e31-a6d0-663164264328",
+      "name": "Julien Moreau",
+      "discord": "julien_code",
+      "createdAt": "2026-02-04T15:05:51.429Z"
+    },
+    {
+      "id": "ef24043a-ba12-4256-9b81-6350ef686af9",
+      "mentorId": "fc761c56-03a2-4e31-a6d0-663164264328",
+      "name": "Sophie Laurent",
+      "discord": "sophie.ui",
+      "createdAt": "2026-02-04T15:05:51.429Z"
+    },
+    {
+      "id": "928d58fc-edb1-4b73-ab0a-d6ef23126f91",
+      "mentorId": "fc761c56-03a2-4e31-a6d0-663164264328",
+      "name": "Ahmed Al-Farsi",
+      "discord": "ahmed.sa",
+      "createdAt": "2026-02-04T15:05:51.429Z"
+    },
+    {
+      "id": "45c35338-d814-4053-99e7-66272e072c67",
+      "mentorId": "fc761c56-03a2-4e31-a6d0-663164264328",
+      "name": "Omar Al-Nasser",
+      "discord": "omar.backend",
+      "createdAt": "2026-02-04T15:05:51.429Z"
+    },
+    {
+      "id": "00f64ee9-5f76-4342-9a29-2389fbb8e39a",
+      "mentorId": "fc761c56-03a2-4e31-a6d0-663164264328",
+      "name": "Yasmin Al-Harbi",
+      "discord": "yasmin.dev",
+      "createdAt": "2026-02-04T15:05:51.429Z"
+    },
+    {
+      "id": "631ea554-86c1-4278-9788-ba289272fbbd",
+      "mentorId": "fc761c56-03a2-4e31-a6d0-663164264328",
+      "name": "Khalid Al-Mutairi",
+      "discord": "khalid.api",
+      "createdAt": "2026-02-04T15:05:51.429Z"
+    },
+    {
+      "id": "74f56052-6195-4fb6-8ff1-030494fab107",
+      "mentorId": "fc761c56-03a2-4e31-a6d0-663164264328",
+      "name": "Jack Wilson",
+      "discord": "jack.aus",
+      "createdAt": "2026-02-04T15:05:51.430Z"
+    },
+    {
+      "id": "ceaa8253-dd49-43ec-811e-26990e6b2aab",
+      "mentorId": "fc761c56-03a2-4e31-a6d0-663164264328",
+      "name": "Emily Carter",
+      "discord": "emily.react",
+      "createdAt": "2026-02-04T15:05:51.430Z"
+    },
+    {
+      "id": "b78362c5-a002-4229-ab64-91d84e966cd6",
+      "mentorId": "fc761c56-03a2-4e31-a6d0-663164264328",
+      "name": "Noah Thompson",
+      "discord": "noah.node",
+      "createdAt": "2026-02-04T15:05:51.430Z"
+    },
+    {
+      "id": "00c60243-d9b9-47e3-934b-731ce2bf08f2",
+      "mentorId": "fc761c56-03a2-4e31-a6d0-663164264328",
+      "name": "Oliver Brown",
+      "discord": "oliver.cloud",
+      "createdAt": "2026-02-04T15:05:51.430Z"
+    },
+    {
+      "id": "fcec99b2-43f6-4ef4-b92e-873ffafd7f97",
+      "mentorId": "fc761c56-03a2-4e31-a6d0-663164264328",
+      "name": "Michael Johnson",
+      "discord": "mike.fullstack",
+      "createdAt": "2026-02-04T15:05:51.430Z"
+    },
+    {
+      "id": "9f20007e-0812-4b01-b2b6-9ce865496c5c",
+      "mentorId": "fc761c56-03a2-4e31-a6d0-663164264328",
+      "name": "Sarah Miller",
+      "discord": "sarah.codes",
+      "createdAt": "2026-02-04T15:05:51.430Z"
+    },
+    {
+      "id": "e92adc9b-eda0-489c-84c2-80ad1cfea49f",
+      "mentorId": "fc761c56-03a2-4e31-a6d0-663164264328",
+      "name": "Daniel Anderson",
+      "discord": "dan_backend",
+      "createdAt": "2026-02-04T15:05:51.430Z"
+    },
+    {
+      "id": "10700a19-493f-47a7-93bf-af15e7c8870c",
+      "mentorId": "fc761c56-03a2-4e31-a6d0-663164264328",
+      "name": "Jessica White",
+      "discord": "jess.uiux",
+      "createdAt": "2026-02-04T15:05:51.430Z"
+    },
+    {
+      "id": "8cec2766-8949-4a8c-97d4-1a924d7c8c48",
+      "mentorId": "fc761c56-03a2-4e31-a6d0-663164264328",
+      "name": "Elvin Məmmədov",
+      "discord": "elvin.dev",
+      "createdAt": "2026-02-04T15:05:51.430Z"
+    },
+    {
+      "id": "18c879df-5b31-4f96-8e57-6e4b40fcbbbe",
+      "mentorId": "fc761c56-03a2-4e31-a6d0-663164264328",
+      "name": "Aysel Hüseynova",
+      "discord": "aysel.frontend",
+      "createdAt": "2026-02-04T15:05:51.430Z"
+    },
+    {
+      "id": "4891e501-b4a0-4b3d-8af1-7b1b52146db6",
+      "mentorId": "fc761c56-03a2-4e31-a6d0-663164264328",
+      "name": "Kamal Əliyev",
+      "discord": "kamal.api",
+      "createdAt": "2026-02-04T15:05:51.430Z"
+    },
+    {
+      "id": "75616922-86cf-40cc-874a-cfb9afcf9760",
+      "mentorId": "fc761c56-03a2-4e31-a6d0-663164264328",
+      "name": "Nigar Qasımova",
+      "discord": "nigar.sql",
+      "createdAt": "2026-02-04T15:05:51.430Z"
+    },
+    {
+      "id": "aa6ac963-d983-4d83-ac08-941623e8682d",
+      "mentorId": "a62ec445-cbee-407f-98c3-6c3a9c4a893b",
+      "name": "Jalal Ahmadli",
+      "discord": "jalalahmadli",
+      "major": "",
+      "createdAt": "2026-02-05T08:52:51.391Z"
+    },
+    {
+      "id": "d501c5ae-bad0-47ec-ad89-10120bec7b77",
+      "mentorId": "a62ec445-cbee-407f-98c3-6c3a9c4a893b",
+      "name": "Elcan Aliyev",
+      "discord": "elcanoo",
+      "major": "",
+      "createdAt": "2026-02-05T08:52:51.391Z"
+    },
+    {
+      "id": "8aef9340-d2a5-4b67-a93e-56316d52ba6f",
+      "mentorId": "a62ec445-cbee-407f-98c3-6c3a9c4a893b",
+      "name": "Tamerlan Kerimov",
+      "discord": "kerim0v",
+      "major": "",
+      "createdAt": "2026-02-05T08:52:51.391Z"
+    },
+    {
+      "id": "81dcac6c-20a9-4d62-a62b-3d64021abe73",
+      "mentorId": "a62ec445-cbee-407f-98c3-6c3a9c4a893b",
+      "name": "Ziya Safaraliyev",
+      "discord": "ziyasenior",
+      "major": "",
+      "createdAt": "2026-02-05T08:52:51.391Z"
+    },
+    {
+      "id": "88f84536-9c3a-4986-9888-0a62453e37bf",
+      "mentorId": "a62ec445-cbee-407f-98c3-6c3a9c4a893b",
+      "name": "Lucas Martin",
+      "discord": "lucas.fr",
+      "major": "",
+      "createdAt": "2026-02-05T08:52:51.391Z"
+    },
+    {
+      "id": "aec445dd-9588-4090-8627-8913eee1b4ee",
+      "mentorId": "a62ec445-cbee-407f-98c3-6c3a9c4a893b",
+      "name": "Camille Dupont",
+      "discord": "camille.dev",
+      "major": "",
+      "createdAt": "2026-02-05T08:52:51.391Z"
+    },
+    {
+      "id": "31986116-954f-4237-b9eb-3355cbace263",
+      "mentorId": "a62ec445-cbee-407f-98c3-6c3a9c4a893b",
+      "name": "Julien Moreau",
+      "discord": "julien_code",
+      "major": "",
+      "createdAt": "2026-02-05T08:52:51.391Z"
+    },
+    {
+      "id": "193fb92d-66e6-43be-8117-c866b31d7f2e",
+      "mentorId": "a62ec445-cbee-407f-98c3-6c3a9c4a893b",
+      "name": "Sophie Laurent",
+      "discord": "sophie.ui",
+      "major": "",
+      "createdAt": "2026-02-05T08:52:51.391Z"
+    },
+    {
+      "id": "89bcf1c6-30c1-441a-a851-8fdecf85da3c",
+      "mentorId": "a62ec445-cbee-407f-98c3-6c3a9c4a893b",
+      "name": "Ahmed Al-Farsi",
+      "discord": "ahmed.sa",
+      "major": "",
+      "createdAt": "2026-02-05T08:52:51.391Z"
+    },
+    {
+      "id": "a19058f9-7327-4b7a-bf51-ed861142ec07",
+      "mentorId": "a62ec445-cbee-407f-98c3-6c3a9c4a893b",
+      "name": "Omar Al-Nasser",
+      "discord": "omar.backend",
+      "major": "",
+      "createdAt": "2026-02-05T08:52:51.391Z"
+    },
+    {
+      "id": "eb2799f1-2b75-439c-a14e-5563d4cffd52",
+      "mentorId": "a62ec445-cbee-407f-98c3-6c3a9c4a893b",
+      "name": "Yasmin Al-Harbi",
+      "discord": "yasmin.dev",
+      "major": "",
+      "createdAt": "2026-02-05T08:52:51.391Z"
+    },
+    {
+      "id": "8c37352e-4c24-490d-a2e8-0f9c54965bfd",
+      "mentorId": "a62ec445-cbee-407f-98c3-6c3a9c4a893b",
+      "name": "Khalid Al-Mutairi",
+      "discord": "khalid.api",
+      "major": "",
+      "createdAt": "2026-02-05T08:52:51.391Z"
+    },
+    {
+      "id": "90c757df-41dd-47f1-8d6f-85a67ae509c4",
+      "mentorId": "a62ec445-cbee-407f-98c3-6c3a9c4a893b",
+      "name": "Jack Wilson",
+      "discord": "jack.aus",
+      "major": "",
+      "createdAt": "2026-02-05T08:52:51.392Z"
+    },
+    {
+      "id": "e51c1ae7-fc03-4306-b9db-60fa750f12c5",
+      "mentorId": "a62ec445-cbee-407f-98c3-6c3a9c4a893b",
+      "name": "Emily Carter",
+      "discord": "emily.react",
+      "major": "",
+      "createdAt": "2026-02-05T08:52:51.392Z"
+    },
+    {
+      "id": "f4ce47e6-652b-4d83-b362-d7440832b109",
+      "mentorId": "a62ec445-cbee-407f-98c3-6c3a9c4a893b",
+      "name": "Noah Thompson",
+      "discord": "noah.node",
+      "major": "",
+      "createdAt": "2026-02-05T08:52:51.392Z"
+    },
+    {
+      "id": "d9f77367-4b2a-42b0-bf60-d438e33622c3",
+      "mentorId": "a62ec445-cbee-407f-98c3-6c3a9c4a893b",
+      "name": "Oliver Brown",
+      "discord": "oliver.cloud",
+      "major": "",
+      "createdAt": "2026-02-05T08:52:51.392Z"
+    },
+    {
+      "id": "28da2c9b-efd2-4d4d-91f8-880dc4af957b",
+      "mentorId": "a62ec445-cbee-407f-98c3-6c3a9c4a893b",
+      "name": "Michael Johnson",
+      "discord": "mike.fullstack",
+      "major": "",
+      "createdAt": "2026-02-05T08:52:51.392Z"
+    },
+    {
+      "id": "e42950eb-f11a-4ee9-a0c6-9e3142846e66",
+      "mentorId": "a62ec445-cbee-407f-98c3-6c3a9c4a893b",
+      "name": "Sarah Miller",
+      "discord": "sarah.codes",
+      "major": "",
+      "createdAt": "2026-02-05T08:52:51.392Z"
+    },
+    {
+      "id": "b043b6a1-7159-4b0a-9ff6-9c6ff5e1e07b",
+      "mentorId": "a62ec445-cbee-407f-98c3-6c3a9c4a893b",
+      "name": "Daniel Anderson",
+      "discord": "dan_backend",
+      "major": "",
+      "createdAt": "2026-02-05T08:52:51.392Z"
+    },
+    {
+      "id": "12ccff7d-0575-4588-813a-f7b4425b8111",
+      "mentorId": "a62ec445-cbee-407f-98c3-6c3a9c4a893b",
+      "name": "Jessica White",
+      "discord": "jess.uiux",
+      "major": "",
+      "createdAt": "2026-02-05T08:52:51.392Z"
+    },
+    {
+      "id": "36b25224-6f68-4664-b342-1c37cbc7881b",
+      "mentorId": "a62ec445-cbee-407f-98c3-6c3a9c4a893b",
+      "name": "Elvin Məmmədov",
+      "discord": "elvin.dev",
+      "major": "",
+      "createdAt": "2026-02-05T08:52:51.392Z"
+    },
+    {
+      "id": "6157e981-5a84-4f65-a78c-c0bad0d75804",
+      "mentorId": "a62ec445-cbee-407f-98c3-6c3a9c4a893b",
+      "name": "Aysel Hüseynova",
+      "discord": "aysel.frontend",
+      "major": "",
+      "createdAt": "2026-02-05T08:52:51.392Z"
+    },
+    {
+      "id": "3e769150-39f4-4dac-9dba-3908ec3687c1",
+      "mentorId": "a62ec445-cbee-407f-98c3-6c3a9c4a893b",
+      "name": "Kamal Əliyev",
+      "discord": "kamal.api",
+      "major": "",
+      "createdAt": "2026-02-05T08:52:51.392Z"
+    },
+    {
+      "id": "2e6f89a9-61eb-44c3-9df1-448022ac3d06",
+      "mentorId": "a62ec445-cbee-407f-98c3-6c3a9c4a893b",
+      "name": "Nigar Qasımova",
+      "discord": "nigar.sql",
+      "major": "",
+      "createdAt": "2026-02-05T08:52:51.392Z"
+    },
+    {
+      "id": "3e749018-30b6-44f9-9ce9-189ba86141e9",
+      "mentorId": "a62ec445-cbee-407f-98c3-6c3a9c4a893b",
+      "name": "Aysel Mammedova",
+      "discord": "aysel.mammedova",
+      "major": "Computer Science",
+      "createdAt": "2026-02-05T08:56:22.837Z"
+    }
+  ],
+  "questions": [
+    {
+      "id": "26026e59-f10f-4309-a966-95c43355b32e",
+      "mentorId": "fc761c56-03a2-4e31-a6d0-663164264328",
+      "topic": "Loops",
+      "questions": [
+        {
+          "id": "dd726596-8cc9-42a2-af10-c35247a4aa94",
+          "text": "What is while loop?"
+        },
+        {
+          "id": "64ace15a-ac2b-4fb9-995e-321ffa60cb1f",
+          "text": "What is for loop?\n\n3.What is difference between while and for loop?\n\n4.What is nested loops?\n\n5.What is variable scopes?"
+        }
+      ],
+      "createdAt": "2026-02-04T16:40:31.205Z"
+    },
+    {
+      "id": "1573e185-c081-48e3-a4ee-1593563e0069",
+      "mentorId": "fc761c56-03a2-4e31-a6d0-663164264328",
+      "topic": "Loops",
+      "questions": [
+        {
+          "id": "458e7d7d-39ce-44ed-9f14-b503d2408ac7",
+          "text": "What is while loop?"
+        },
+        {
+          "id": "bea9bab9-eefc-4927-83d9-005da338a495",
+          "text": "What is for loop?"
+        },
+        {
+          "id": "acef945c-17fa-4ac8-91cc-a9ef1e0569ba",
+          "text": "What is difference between while and for loop?"
+        },
+        {
+          "id": "294b6e2e-7352-4227-b72b-60d2112051c2",
+          "text": "What is nested loops?"
+        },
+        {
+          "id": "2b967ea3-cfc6-44ac-a7b6-d3b090f8b9e2",
+          "text": "What is variable scopes?"
+        }
+      ],
+      "createdAt": "2026-02-04T16:42:29.853Z"
+    },
+    {
+      "id": "fee5b5d7-1051-47ba-bd85-aba4dd2bf83a",
+      "mentorId": "a62ec445-cbee-407f-98c3-6c3a9c4a893b",
+      "topic": "LOOPS",
+      "questions": [
+        {
+          "id": "fb15d70e-b036-471c-804f-6bf371fc206c",
+          "text": "WHAT IS A LOOP"
+        }
+      ],
+      "createdAt": "2026-02-05T08:37:15.226Z"
+    },
+    {
+      "id": "a340168d-a51f-47d6-b0cc-25719dcfd564",
+      "mentorId": "a62ec445-cbee-407f-98c3-6c3a9c4a893b",
+      "topic": "LOOPS",
+      "questions": [
+        {
+          "id": "3dda5e9a-a7da-46cc-baec-aa3321a4205b",
+          "text": "WHAT IS A LOOP"
+        },
+        {
+          "id": "f0564b83-afb7-4ce8-9a48-6f190c5f56ec",
+          "text": "WHAT IS A LOOP 2"
+        }
+      ],
+      "createdAt": "2026-02-05T08:37:42.741Z"
+    },
+    {
+      "id": "56dc6198-8426-41e9-b213-1bb797bd6b06",
+      "mentorId": "a62ec445-cbee-407f-98c3-6c3a9c4a893b",
+      "topic": "Loops",
+      "questions": [
+        {
+          "id": "4202079f-0d47-4829-a192-ecc1c937bffb",
+          "text": "What is while loop?"
+        },
+        {
+          "id": "3d9d366f-a1e4-49e0-8688-0179ca287487",
+          "text": "What is for loop?"
+        },
+        {
+          "id": "5c110393-ad6d-4928-91f7-3dc5b8957c62",
+          "text": "What is difference between while and for loop?"
+        },
+        {
+          "id": "be09d4b1-f2a7-4c42-ba4e-fb29fa935767",
+          "text": "What is nested loops?"
+        },
+        {
+          "id": "f1a52e3c-9ab7-43e5-ac9e-c96256a1334e",
+          "text": "What is variable scopes?"
+        }
+      ],
+      "createdAt": "2026-02-05T08:53:29.301Z"
+    }
+  ],
+  "chats": []
+}

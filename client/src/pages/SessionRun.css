@@ -1,0 +1,44 @@
+/* client/src/pages/SessionRun.css */
+
+.session-header-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.session-header-buttons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+/* Base grid defaults to single column for mobile */
+.session-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    transition: all 0.3s ease;
+}
+
+/* Switch to two columns on larger screens when sidebar is active */
+@media (min-width: 1024px) {
+    .session-grid.has-sidebar {
+        grid-template-columns: 1fr 320px;
+    }
+}
+
+.session-inner-grid {
+    flex: 1;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.session-col {
+    flex: 1 1 300px;
+    display: flex;
+    flex-direction: column;
+}
